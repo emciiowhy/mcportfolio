@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .image-item {
+            margin: 10px;
+        }
+
+        .download-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery</h1>
+    </header>
+
+    <div class="image-container">
+        <div class="image-item">
+            <img src="https://scontent.fceb3-1.fna.fbcdn.net/v/t39.30808-6/386357448_1483177772502121_3725304719027910920_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeE5E3cQdd0xEjyTXmdYpnEa93ieXT6x-M33eJ5dPrH4zRjgRY0au5HSXTdUOsIBuAsSR5m60D9-tW4XzDCRbPbJ&_nc_ohc=AyfhOWfWqxIAX-CC6mJ&_nc_ht=scontent.fceb3-1.fna&oh=00_AfAd3impcCVdqNg3b90MOy6OaAIND63b6mB8a-04pn-8Vw&oe=6586E99F" alt="Image 1">
+            <a href="81.jpg" class="download-link" download>Download Image 1</a>
+        </div>
+
+        <div class="image-item">
+            <img src="77.jpg" alt="Image 2">
+            <a href="77.jpg" class="download-link" download>Download Image 2</a>
+        </div>
+        </div>
+        <!-- Add more image items as needed -->
+    </div>
+</body>
+</html>
